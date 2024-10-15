@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Scientist</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main_header">
+        <h1 class="scientist_name">Michio Kaku</h1>
+        <img class="maku_main" src="kaku.jpg" alt="A image of Dr. Michio Kaku.">
+        <span class="space"></span>
+        <div class="scientist_caption">
+            <p>Dr. Michio Kaku, globally-renowned theoretical physicist, futurist, and bestselling author of QUANTUM SUPREMACY</p>
+        </div>
+    </header>
+
+    <div id="event_container">
+        <header class="event_header">
+            <h2>Upcoming Events:</h2>
+        </header>
+
+        <div class="upcoming_events">
+            <p class="event_name">Event Name 01</p>
+            <p class="event_location">Event Location</p>
+            <p class="event_date">2024-10-15</p>
+        </div>
+
+        <div class="upcoming_events">
+             <p class="event_name">Event Name 02</p>
+            <p class="event_location">Event Location</p>
+            <p class="event_date">2024-10-25</p>
+        </div>
+
+        <div class="upcoming_events">
+            <p class="event_name">Event Name 03</p>
+            <p class="event_location">Event Location</p>
+            <p class="event_date">2024-11-15</p>
+        </div>
+
+        <div class="button_full">
+            <button type="submit" onclick="style_me()">Style Me</button>
+        </div>
+    </div>
+
+    <div id="article_container">
+        <header class="article_header">
+            <h2>Articles</h2>
+        </header>
+    </div>
+
+    <form name="user_fav_scientist" onsubmit="add_text(event)">
+        <label for="scientist_name">Enter your favorite scientist</label>
+        <input type="text" name="scientist_name" id="scientist_name" />
+        <input type="submit" value="Submit" />
+    </form>
+
+    <div id="scientist_names"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

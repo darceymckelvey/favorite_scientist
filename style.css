@@ -1,0 +1,136 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: #FAFAFA;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#2196F3;
+    padding: 25px 0;
+}
+
+.scientist_name {
+    width: 100vw;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+    background-color: #2196F3;
+    color: #BBDEFB;
+}
+
+.maku_main {
+    width: 25vh;
+    border-radius: 25%;
+    border: 5px solid #BBDEFB;
+}
+
+.space {
+    width: 20px;
+}
+
+.scientist_caption p {
+    width: 45vw;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: larger;
+    background-color: #2196F3;
+    border: 3px solid #BBDEFB;
+    padding: 20px;
+}
+
+#event_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    border-bottom: 25px solid #2196F3;
+}
+
+.event_header {
+    width: 100%;
+    text-align: center;
+}
+
+.event_header h2 {
+     color: #2196F3;
+}
+
+.upcoming_events {
+    margin: 20px;
+}
+
+.upcoming_events_styled {
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #BBDEFB;
+    padding: 5px;
+    text-align: center;
+    width: 25%;
+}
+
+.button_full {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color:#2196F3;
+    padding: 5px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+#article_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+}
+
+.article_header {
+    width: 100vw;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.article_header h2 {
+    color: #2196F3;
+}
+
+.article_styles {
+    margin: 25px;
+    padding: 25px;
+    background-color: #2196F3;
+}
+
+.article_styles h2, .article_styles p {
+    background-color: #2196F3;
+    color: #FAFAFA;
+    font-size: 1em;
+}
+
+#scientist_names {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#scientist_names input {
+    background-color:  #2196F3;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
